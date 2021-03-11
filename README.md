@@ -42,7 +42,10 @@ Find the file `index.js` and complete the tasks.
 
 Edit the `ReadMe` file with your answers.
 
-1. In your own words, define closure (1-2 sentences).
+1. In your own words, define closure (1-2 sentences). 
+
+Closure is a group of nested functions. Closure is created every time a function is created.
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -63,9 +66,17 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
+a. Where is closure used in this code? How can you tell? 
+
+Closure used in both functions. There is a function within a function.
+
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+
+The name Dan remains the same and runs the same function. The difference is the number rools random each time.
+
 c. What is the lexical scope of `newRoll`? 
+
+The named variable. It starts the search in then outer.
 
 
 ### Task 3 - Stretch Goals
